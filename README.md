@@ -28,7 +28,7 @@
  #### 백엔드 <img src="https://img.shields.io/badge/Language-Java-green"/> <img src="https://img.shields.io/badge/Framwork-Springboot-red"/> 
 - 규칙 기반을 통해 답변을 찾는 python 외부 파일을 Java가 실행해야 합니다.
   - **ProcessBuilder**를 이용하여 외부에 있는 python 파일을 실행했습니다.
-  - 프로젝트의 ```src\main\java\hello\chatbot\python``` 안에 놓았지만 실제는 외부에 있어야 합
+  - 프로젝트의 ```src\main\java\hello\chatbot\python``` 안에 놓았지만 실제는 외부에 있어야 합니다.
 - 사용자는 원하는 양식이 필요한 경우 다운로드 받을 수 있습니다. 
   - excel에 저장된 답변 데이터에 <a>태그를 통해 파일의 링크를 넣었습니다.
   - 이 답변 데이터는 ```src\main\java\hello\chatbot\domain\question```에 있는 **"FileLinkMaker"**를 통해서 HTML태그를 분리합니다.
