@@ -1,6 +1,6 @@
 package hello.chatbot.python;
 
-import hello.chatbot.domain.question.FileLinkMaker;
+import hello.chatbot.question.FileLinkMaker;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,7 +14,7 @@ import java.util.Map;
 
 public class PythonFileReader {
     private String path;
-    //private File file;
+
     private String fileName;
     private String methodName;
 

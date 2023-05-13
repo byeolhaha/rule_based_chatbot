@@ -1,4 +1,4 @@
-package hello.chatbot.domain.question;
+package hello.chatbot.question;
 
 import java.util.HashMap;
 import java.util.Map;
