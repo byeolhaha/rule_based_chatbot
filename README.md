@@ -1,4 +1,7 @@
 # rule_based_chatbot
+bert모델은 너무 무거워
+네이버 클라우드의 무료 서버([MICRO] 1vCPU, 1GB Mem, 50GB Disk [g1]) 사양에서는
+응답이 20분 뒤에 와 규칙기반 챗봇을 적용하였습니다.
 
 ## 🤖 개인 프로젝트 소개 
 실무자들을 위한 민원 상담 챗봇입니다.
@@ -6,7 +9,12 @@
 
 ## 개발 기간
 - 2023.01.01. ~ 2023.01.31.
-
+## 결과물
+![image](https://github.com/byeolhaha/rule_based_chatbot/assets/108210958/a8cb4655-3988-4b7c-8137-9bbce154d82d)
+http://www.minwonchatbot.site/
+   - 질문 예시 (실무자들 대상이라 몇 개의 질문 예시를 들겠습니다.)
+     - 이송할 때 어떻게 하니?
+     - 민원이란? 
 ## 설명
 
 ### 요구사항 및 해결 방법
@@ -19,10 +27,10 @@
   
 ### Chatbot
 <img src="https://img.shields.io/badge/Language-python-green"/>
-- 데이터가 부족한 경우, Bert 모델을 이용할 수도 있습니다.
-- 내부 python파일을 필요에 따라 원하는 모델로 바꾸시면 됩니다.
-- 규칙기반 챗봇의 경우 데이터가 많고 특정 분야가 정해진 경우에 이용합니다.
-- 위 챗봇은 민원처리에 관한 특정 분야가 정해져 있기 때문에 규칙 기반으로 정했습니다.
+- 데이터가 부족한 경우, Bert 모델을 이용할 수도 있습니다.</br>
+- 내부 python파일을 필요에 따라 원하는 모델로 바꾸시면 됩니다.</br>
+- 규칙기반 챗봇의 경우 데이터가 많고 특정 분야가 정해진 경우에 이용합니다.</br>
+- 위 챗봇은 민원처리에 관한 특정 분야가 정해져 있기 때문에 규칙 기반으로 정했습니다.</br>
 
 ### Web
  #### 백엔드 <img src="https://img.shields.io/badge/Language-Java-green"/> <img src="https://img.shields.io/badge/Framwork-Springboot-red"/> 
@@ -41,10 +49,5 @@
 - 규칙 기반 챗봇의 경우 대량의 데이터가 필요하기 때문에 사용자로부터 잘못된 답변이 오는 경우 DB에 쌓이도록 구현했습니다.</br>
   - 사용자가 잘못된 답변을 받은 경우 "바보: 잘못된 답변이 간 질문"을 챗팅창에 넣으면 이 데이터가 DB에 쌓입니다.</br>
   - 올바른 답변 데이터를 연결하는 작업을 주기적으로 진행합니다.</br>
-    
-## 결과물
-![image](https://user-images.githubusercontent.com/108210958/227143931-9690e5d3-1242-4cc6-a921-00c29724d717.png)
-
-- 도메인
-http://www.minwonchatbot.site/
+- 두 달간 실무자들이 자주 질문하는 내용을 모았고 민원처리법을 기반으로 작성하였습니다.  
 
